@@ -1,0 +1,11 @@
+@mixin background-fromsprite-to-id($name, $folder){
+	
+	$sprite-name: sprite-map($folder+"/*.png");
+	
+	@each $icon-name in $name{
+		&##{$icon-name}{ background: sprite($sprite-name, $icon-name+'_w') no-repeat; 	
+				 &:hover { background: sprite($sprite-name, $icon-name+'_c') no-repeat;}
+		}
+	}
+}
+
