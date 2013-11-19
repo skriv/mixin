@@ -1,10 +1,20 @@
-@mixin background-fromsprite-to-id($name, $folder){
+// MIXIN – ADD BRAND BACKGROUND
+//// @include background-images-to-id(name_of_id, folder, normalSelector, hoverSelector, false-mouse over adtion);
+
+@mixin background-images-to-id($name, $folder, $n_selector, $h_selector, $action:false){
 	
 	$sprite-name: sprite-map($folder+"/*.png");
 	
+
 	@each $icon-name in $name{
-		&##{$icon-name}{ background: sprite($sprite-name, $icon-name+'_w') no-repeat; 	
-				 &:hover { background: sprite($sprite-name, $icon-name+'_c') no-repeat;}
+		&##{$icon-name}{ background: sprite($sprite-name, $icon-name+$n_selector) no-repeat; 
+		
+			@debug $sprite-name;
+
+				@if $action == true {
+					&:hover { background: sprite($sprite-name, $icon-name+$h_selector) no-repeat;}
+				}	
+				 
 		}
 	}
 }
