@@ -1,0 +1,189 @@
+@font-face {
+	font-family: 'besmart';
+	src:url('../fonts/besmart.eot?-btco56');
+	src:url('../fonts/besmart.eot?#iefix-btco56') format('embedded-opentype'),
+		url('../fonts/besmart.woff?-btco56') format('woff'),
+		url('../fonts/besmart.ttf?-btco56') format('truetype'),
+		url('../fonts/besmart.svg?-btco56#besmart') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+i {
+	font-family: 'besmart';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.besmart-aexpress:before {
+	content: "\e617";
+}
+
+.besmart-mastercard:before {
+	content: "\e618";
+}
+
+.besmart-flag_kg:before {
+	content: "\e626";
+}
+
+.besmart-flag_az:before {
+	content: "\e627";
+}
+
+.besmart-flag_kz:before {
+	content: "\e628";
+}
+
+.besmart-courier:before {
+	content: "\e624";
+}
+
+.besmart-go_to_top:before {
+	content: "\e625";
+}
+
+.besmart-calendar:before {
+	content: "\e61f";
+}
+
+.besmart-checkbox:before {
+	content: "\e620";
+}
+
+.besmart-close_pop_up:before {
+	content: "\e621";
+}
+
+.besmart-pdf:before {
+	content: "\e622";
+}
+
+.besmart-printer:before {
+	content: "\e623";
+}
+
+.besmart-btn_arrow_left:before {
+	content: "\e61e";
+}
+
+.besmart-answer:before {
+	content: "\e61d";
+}
+
+.besmart-applestore:before {
+	content: "\e61b";
+}
+
+.besmart-googleplay:before {
+	content: "\e61c";
+}
+
+.besmart-kazkom:before {
+	content: "\e619";
+}
+
+.besmart-visa:before {
+	content: "\e61a";
+}
+
+.besmart-back:before {
+	content: "\e614";
+}
+
+.besmart-comp:before {
+	content: "\e615";
+}
+
+.besmart-wallet:before {
+	content: "\e616";
+}
+
+.besmart-credit:before {
+	content: "\e60e";
+}
+
+.besmart-map:before {
+	content: "\e60f";
+}
+
+.besmart-terminal:before {
+	content: "\e610";
+}
+
+.besmart-care:before {
+	content: "\e611";
+}
+
+.besmart-guarantee:before {
+	content: "\e612";
+}
+
+.besmart-support:before {
+	content: "\e613";
+}
+
+.besmart-logo:before {
+	content: "\e60d";
+}
+
+.besmart-twitter:before {
+	content: "\e60a";
+}
+
+.besmart-vk:before {
+	content: "\e60b";
+}
+
+.besmart-tick_down:before {
+	content: "\e60c";
+}
+
+.besmart-tick_up:before {
+	content: "\e600";
+}
+
+.besmart-faceboo:before {
+	content: "\e608";
+}
+
+.besmart-mail:before {
+	content: "\e607";
+}
+
+.besmart-eye:before {
+	content: "\e606";
+}
+
+.besmart-search:before {
+	content: "\e605";
+}
+
+.besmart-gift:before {
+	content: "\e601";
+}
+
+.besmart-shop:before {
+	content: "\e609";
+}
+
+.besmart-trash:before {
+	content: "\e602";
+}
+
+.besmart-user:before {
+	content: "\e603";
+}
+
+.besmart-watch:before {
+	content: "\e604";
+}
+

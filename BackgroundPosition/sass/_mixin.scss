@@ -1,0 +1,45 @@
+//////////////////////////////////////////////////////// MIXIN & PLACEHOLDERS //////////////////////////////////////
+/* axis : @include centre(y);
+X axis : @include centre(x);
+Both axis : @include centre;*/
+
+@mixin centre($axis: "both"){
+    position:absolute;
+    @if $axis == "y"{
+        top:50%;
+		@include transform(translateY(-50%));
+    }
+    @if $axis == "x"{
+        left:50%;
+        @include transform(translateX(-50%));
+    }
+    @if $axis == "both"{
+        top:50%;
+        left:50%;
+        @include transform(translateX(-50%), translateY(-50%));
+    }
+
+}
+
+
+/////////////////////////////
+
+@mixin backgroundPosition($img, $w:200px, $h:200px, $scale:"false"){
+    background-image:url($img);
+    content:"";
+    position: absolute;
+    height: $h;
+    width: $w;
+    overflow: hidden;
+    top:0;
+
+    @if $scale == "true"{
+    	@include transform(scaleX(-1));
+        right: 0;
+    }@else {
+        left:0;
+    }
+}
+
+
+
